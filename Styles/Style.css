@@ -1,13 +1,4 @@
 
-
-.home-page {
-
-    margin: 0 auto;
-    background-color: blue;
-    width: 80%;
-    height: 500px;
-}
-
 .evenements-page {
 
     margin: 0 auto;
@@ -48,6 +39,7 @@
 .blank-space{
     height: 50px;
 }
+
 body {
     margin: 0px;
     background-color: rgb(255, 255, 255);
@@ -84,14 +76,14 @@ li a {
 
 .left {
     float: left;
-    width: 750px;
+    width: 40%;
     color: white;
     height: 100px;
 }
 
 .right {
     float: right;
-    width: 750px;
+    width: 40%;
     color: black;
     height: 100px;
 }
@@ -104,3 +96,4 @@ li a {
     background-color: #fff !important;
     transition: background-color 200ms linear;
   }
+
