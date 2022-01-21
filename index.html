@@ -5,90 +5,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/carousel.css">
-    <script src="carousel.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <script src="js/carousel.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <div class="language" id="home-page">
-        <a href="index.html">Nederlands</a>
-        <a href="index-frans.html">Frans</a>
-        <a href="index-engels.html">Engels</a>
+
+    <div id="home-page"></div>
+
+    <div class="hero-image">
+        <div class="dropdown">
+            <button class="dropbtn">NL</button>
+            <div class="dropdown-content">
+                <a href="#">Frans</a>
+                <a href="#">Engels</a>
+            </div>
+        </div>
+        <div class="head">
+            <h1>CAMPING JOSÉE</h1>
+        </div>
+        <div class="topnav">
+            <div class="topnav-right">
+                <a href="#home-page">HOME</a>
+                <a href="events.html">EVENEMENTEN</a>
+                <a href="about.html">WIE WE ZIJN</a>
+                <a href="contact.html">CONTACT</a>
+            </div>
+        </div>
+        <div class="home-text">
+            <h1>Cantine Josée</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nam imperdiet tortor ac porttitor porta.
+                Integer dictum quam sit amet metus suscipit consectetur.</p>
+            <a class="button-cantine" href="#">Lees meer</a>
+            <a class="button-doe-mee" href="#">Doe mee</a>
+        </div>
+        <div class="scroll-down-icon">
+            <a href="#start"><img src="images/scroll-down.png" alt="" width="12%" height="12%"></a>
+        </div>
+        <img src="images/natuur.png" alt="" width="100%" height="100%">
     </div>
+
     <div class="navbar">
-        <ul>
-            <li><a href="#home-page">Home</a></li>
-            <li><a href="#evenements-page">Evenementen</a></li>
-            <li><a href="#about-us-page">Wie zijn we?</a></li>
-            <li><a href="#contact-page">Contact</a></li>
-            <li><a href="#extras-page">Extras</a></li>
-        </ul>
+        <div class="navbar-links">
+            <h1>CAMPING JOSÉE</h1>
+        </div>
+        <a href="contact.html">CONTACT</a>
+        <a href="about.html">WIE WE ZIJN</a>
+        <a href="events.html">EVENEMENTEN</a>
+        <a href="index.html">HOME</a>
     </div>
 
-
-    <div class="blank-spacefix" id="evenements-page"></div>
-    <div class="blank-space"></div>
-    <div class="evenements-page">
-
-        <div class="slideshow-container">
-
-            <div class="slides fade">
-                <img src="images/Untitled-1.png" style="width:100%">
-                <div class="text">Caption Text</div>
+    <div id="start"></div>
+    <div class="home-page">
+        <div class="what-to-do">
+            <div class="text_whatis">
+                <h1>Wat is er te doen?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam imperdiet tortor ac porttitor porta.
+                    Integer dictum quam sit amet metus suscipit consectetur</p>
             </div>
-
-            <div class="slides fade">
-                <img src="images/Untitled-2.png" style="width:100%">
-                <div class="text">Caption Two</div>
+            <div class="photo_what">
+                <img src="images/teacher.jpg" height="55%" width="55%" alt="teacher">
             </div>
-
-            <div class="slides fade">
-                <img src="images/Untitled-3.png" style="width:100%">
-                <div class="text">Caption Three</div>
+            <div class="text_what">
+                <h1>Hoek voor kinderen</h1>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam imperdiet tortor ac porttitor porta."</p>
             </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="phtxt_what">
+                <div class="photo_what2">
+                    <img src="images/img_stage.jpg" height="55%" width="70%" alt="stage">
+                </div>
+                <div class="text_what2">
+                    <h1>Podium</h1>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nam imperdiet tortor ac porttitor porta."</p>
+                </div>
+            </div>
+            <img src="images/background-home.png" alt="background home" width="100%" height="100%">
+        </div>
+        <div class="positie">
+            <div class="margin-yellow"></div>
+            <div class="text_map">
+                <h1>Waar?</h1>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam imperdiet tortor ac porttitor porta."</p>
+            </div>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="1000" height="500" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=52%20chau,de%20louvain&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://fmovies-online.net"></a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 500px;
+                            width: 1000px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">google maps html embed</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 500px;
+                            width: 1000px;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+        <div class="testamonial">
+            <div class="header_text">
+                <h1>Testamonial</h1>
+            </div>
+            <div class="column_testa">
+                <div class="profile_area">
+                    <div class="bubbles">
+                        <img src="images/placeholder_profile_Tekengebied 1.png" alt="profileplaceholder" height="45%"
+                            width="45%">
+                    </div>
+                    <div class="text_profile">
+                        <h1>username</h1>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam imperdiet tortor ac porttitor porta."</p>
+                    </div>
+                </div>
+                <div class="profile_area">
+                    <div class="bubbles">
+                        <img src="images/placeholder_profile_Tekengebied 1.png" alt="profileplaceholder" height="45%"
+                            width="45%">
+                    </div>
+                    <div class="text_profile">
+                        <h1>username</h1>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam imperdiet tortor ac porttitor porta."</p>
+                    </div>
+                </div>
+                <div class="profile_area">
+                    <div class="bubbles">
+                        <img src="images/placeholder_profile_Tekengebied 1.png" alt="profileplaceholder" height="45%"
+                            width="45%">
+                    </div>
+                    <div class="text_profile">
+                        <h1>username</h1>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Nam imperdiet tortor ac porttitor porta."</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="blank-spacefix" id="about-us-page"></div>
-    <div class="blank-space"></div>
-    <div class="about-us-page">
-        <div class="left">
-
+    <div class="sponsors">
+        <div class="text_sponsers">
+            <h1>Sponsers</h1>
         </div>
-        <div class="right">
-
-        </div>
-    </div>
-    <div class="blank-spacefix" id="contact-page"></div>
-    <div class="blank-space"></div>
-    <div class="contact-page">
-        <div class="left">
-
-        </div>
-        <div class="right">
-
-        </div>
-    </div>
-    <div class="blank-spacefix" id="extras-page"></div>
-    <div class="blank-space"></div>
-    <div class="extras-page">
-        <div class="left">
-
-        </div>
-        <div class="right">
-
+        <div class="column_absolute">
+            <div class="all_column">
+                <div class="spons_column">
+                    <div class="sponser_logo1">
+                        <img src="images/Sint-Joost-Ten-Node_logo_zwart.png" alt="Sint Joost ten Node - Logo"
+                            height="100%" width="25%">
+                    </div>
+                    <div class="sponser_logo2">
+                        <img src="images/StaycationBXL_zwart.png" alt="Stay save, Covid - Logo" height="100%"
+                            width="25%">
+                    </div>
+                </div>
+                <div class="spons_column2">
+                    <div class="sponser_logo3">
+                        <img src="images/Ten-Noey_logo_zwart.png" alt="Noey - Logo" height="100%" width="25%">
+                    </div>
+                    <div class="sponser_logo4">
+                        <img src="images/N22_zwart.png" alt="BrusselseGemeenschapCentra - Logo" height="100%"
+                            width="25%">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="blank-spacefix"></div>
-    <div class="blank-space"></div>
+
     <div class="footer">
-
+        <div class="text-container-footer">
+            <div class="sponsor1">
+                <h2>Sponsors</h2>
+                <p>
+                    Saint - Josse <br>
+                    Tennoey gemeenteschapscentrum <br>
+                    Brusselse gemeenteschapscentra
+                </p>
+            </div>
+        </div>
+        <div class="text-container-footer">
+            <div class="contact">
+                <h2>Contact</h2>
+                <p>
+                    Leuvensesteenweg 54 Saint- <br>
+                    Josse-ten-Node, 1210 <br>
+                    info@cantinejosee.be <br>
+                    0473271947
+                </p>
+            </div>
+        </div>
+        <div class="text-container-footer">
+            <div class="social-media">
+                <h2>Social media</h2>
+                <a href="https://www.facebook.com/cantinejosee/"><img src="images/facebook.png" alt="" width="10%"></a>
+                <a href=""><img src="images/instagram.png" alt="" width="10%"></a>
+                <br>
+            </div>
+        </div>
     </div>
 </body>
 
 </html>
 
+<!--  -->
